@@ -5,9 +5,8 @@ class Education extends Component {
     render() {
         return (
             <div className="condiv">
-            <h1 className="subtopic">My Education</h1>
-            <Widecard title="M.Tech Software Engineering" where="VIT University" from="July 2017" to="Present"/>
-            <Widecard title="SSLC | HSC" where="Islamiah Higher Secondary School" from="2011" to="2017"/>
+            <h1 className="subtopic">Education</h1>
+            <Widecard title="BA Computer Science" where="Mount Allison University" from="Sept. 2015" to="Present"/>
             </div>
             )
         }

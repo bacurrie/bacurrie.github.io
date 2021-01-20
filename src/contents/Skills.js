@@ -5,7 +5,7 @@ class Skills extends Component {
     {
         super(props);
         this.state={
-            'myskills':['something']
+            'myskills':['react','3d modelling','augmented reality','pentesting','']
         };
     }
 

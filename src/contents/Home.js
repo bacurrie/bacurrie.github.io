@@ -12,7 +12,7 @@ class Home extends Component {
     render() {
         return (
             <div className="condiv home">
-            <img src={profilepic} alt="ProfilePic" className="profilepic"></img>
+            {/* <img src={profilepic} alt="ProfilePic" className="profilepic"></img> */}
             {/* <ReactTypingEffect className="typingeffect" text={['Im Gay','I big chungus']} speed={100} eraseDelay={700}/> */}
             <Canvas style={{ background: 'transparent'}} camera={{ position: [0.5, 0.8, 1], fov: 60 }} resize={{width: 5, height:10}}>
           <ambientLight intensity={1}/>
@@ -22,7 +22,7 @@ class Home extends Component {
           </Suspense>
           <OrbitControls />
         </Canvas>
-            <Social />
+            {/* <Social /> */}
             </div>
             )
         }
