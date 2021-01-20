@@ -13,7 +13,7 @@ class Home extends Component {
             <div className="condiv home">
             {/* <img src={profilepic} alt="ProfilePic" className="profilepic"></img> */}
             {/* <ReactTypingEffect className="typingeffect" text={['','big chungus']} speed={100} eraseDelay={700}/> */}
-            <Canvas style={{ background: 'transparent'}} camera={{ position: [0.5, 0.8, 1], fov: 60 }} resize={{width: 5, height:10}}>
+            <Canvas style={{ background: 'transparent'}} camera={{ position: [0.5, 0.8, 1], fov: 90, rotation: [5,5,0] }} resize={{width: 1, height:5}}>
           <ambientLight intensity={1}/>
           <directionalLight intensity={1.5} position={[0,10,0]}/>
           <Suspense fallback={<Loading/>}>

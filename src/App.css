@@ -28,7 +28,7 @@ nav
 }
 .condiv
 {
-  padding: 100px ;
+  padding: 0px ;
   background-color: #f4f5f9;
   flex:var(--condiv-flex);
 }
@@ -46,11 +46,6 @@ nav
   border-radius: 50%;
   width: 200px;
   margin: 30px;
-}
-.typingeffect
-{
-  font-size: var(--typing-font);
-  margin-bottom: 30px;
 }
 
 nav ul{
