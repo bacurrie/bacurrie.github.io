@@ -5,14 +5,14 @@ class Skills extends Component {
     {
         super(props);
         this.state={
-            'myskills':['react','3d modelling','augmented reality','pentesting','']
+            'myskills':['javascript','react framework','three.js','python scripting','selenium automation']
         };
     }
 
     render() {
         return (
             <div className="condiv skills">
-            <h1 className="subtopic">My Skills</h1>
+            <h2 className="subtopic">My Skills</h2>
             <ul>
             {this.state.myskills.map((value)=>{
                 return <li>{value}</li>
