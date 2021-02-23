@@ -1,3 +1,4 @@
-base code blatantly lifted from https://github.com/naaficodes/Portfolio_Website_ReactJS
+Background graphics rendered using Three.js
+Physics using Physijs
 
-:heart:
+Omochao model taken from Sonic Adventure 2
